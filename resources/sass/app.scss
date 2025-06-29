@@ -1,0 +1,29 @@
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+body {
+    font-family: 'Nunito', sans-serif;
+    background-color: #f8f9fa;
+}
+
+.card {
+    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+}
+
+.table-responsive {
+    overflow-x: auto;
+}
+
+.modal-lg {
+    max-width: 800px;
+}
+
+.input-group-text {
+    background-color: #e9ecef;
+}
